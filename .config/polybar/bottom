@@ -1,0 +1,35 @@
+[bar/bottom]
+monitor = ${env:MONITOR:eDP-1-1}
+width = 100%
+height = 16
+;offset-x = 1%
+;offset-y = 1%
+;radius = 6.0
+fixed-center = true
+bottom = true
+background = #00000000
+;background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 0
+;line-color = #f00
+border-size = 4
+border-color = #95000000
+;border-color = ${colors.background} 
+padding-left = 1
+padding-right = 1
+module-margin-left = 1
+module-margin-right = 1
+;locale = fr_FR.UTF-8
+font-0 = SFNS Display Regular:size=9;1
+font-1 = unifont:fontformat=truetype:size=9:antialias=false;0
+font-2 = FontAwesome:size=9;1
+#modules-left = menu networkmanager workspace window_count previous play pause next music2
+#modules-center = xtitle
+modules-right = weather volume temp cpu memory eth xkeyboard time rofi
+;tray-position = 
+;tray-padding = 2
+;tray-background = ${colors.background-alt}
+;tray-transparent = true
+;tray-offset-x = 
+;tray-detached = false
+;tray-maxsize = 24

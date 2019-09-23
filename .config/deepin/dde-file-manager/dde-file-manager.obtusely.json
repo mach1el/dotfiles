@@ -1,0 +1,56 @@
+{
+    "Cache": {
+        "SearchHistroy": [
+            "\\\\10.10.70.1",
+            "\\\\\\\\10.10.70.1",
+            "\\\\10.10.10.134",
+            "\\\\\\\\10.10.10.134",
+            "10.10.10.134",
+            "\\\\\\\\10.10.10.134 ",
+            "smb://10.10.70.1/galaxy",
+            "smb://10.10.70.1",
+            "\\\\\\\\192.168.0.2",
+            "\\\\192.168.0.2",
+            "192.168.0.2",
+            "smb://192.168.0.1",
+            "smb://19.168.0.2"
+        ]
+    },
+    "FileViewState": {
+        "file:///run": {
+            "iconSizeLevel": 1,
+            "viewMode": 1
+        },
+        "network:///": {
+            "iconSizeLevel": 1,
+            "viewMode": 1
+        },
+        "recent:///": {
+            "iconSizeLevel": 1,
+            "sortOrder": 0,
+            "sortRole": 263,
+            "viewMode": 1
+        },
+        "standard://downloads": {
+            "iconSizeLevel": 1,
+            "sortOrder": 1,
+            "sortRole": 262,
+            "viewMode": 1
+        },
+        "standard://home": {
+            "iconSizeLevel": 1,
+            "sortOrder": 0,
+            "sortRole": 265,
+            "viewMode": 1
+        }
+    },
+    "WindowManager": {
+        "SplitterState": {
+            "sidebar": 200
+        },
+        "WindowState": {
+            "height": 630,
+            "width": 1044
+        }
+    }
+}

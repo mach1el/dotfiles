@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 4.8.2, 2019-03-21T20:36:39. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAUAAAA8AC8AaABvAG0AZQAvAG0AaQBjAGgAYQBlAGwALwBRAEMAVABvAG8AbAAvAHEAYwB0AG8AbwBsAC4AdQBpAAAADAAAAAAYAAAAAQAAAAAAAAAAAAAAKQAAAAgAAAAAAAAAOgAvAGgAbwBtAGUALwBtAGkAYwBoAGEAZQBsAC8AUQBDAFQAbwBvAGwALwBxAGMAdABvAG8AbAAuAGgAAAAMAAAAABgAAAABAAAAAAAAAAAAAAAXAAAAAQAAAAAAAAA+AC8AaABvAG0AZQAvAG0AaQBjAGgAYQBlAGwALwBRAEMAVABvAG8AbAAvAHEAYwB0AG8AbwBsAC4AYwBwAHAAAAAMAAAAABgAAAABAAAAAAAAAAAAAAASAAAABQAAAAAAAAA6AC8AaABvAG0AZQAvAG0AaQBjAGgAYQBlAGwALwBRAEMAVABvAG8AbAAvAG0AYQBpAG4ALgBjAHAAcAAAAAwAAAAAGAAAAAEAAAAAAAAAAAAAAAwAAAABAAAAAAAAAD4ALwBoAG8AbQBlAC8AbQBpAGMAaABhAGUAbAAvAFEAQwBUAG8AbwBsAC8AUQBDAFQAbwBvAGwALgBwAHIAbwAAAAwAAAAAGAAAAAEAAAAIAAAAAAAAAAkAAAAgAAAAAAAAAAMAAAA6AC8AaABvAG0AZQAvAG0AaQBjAGgAYQBlAGwALwBRAEMAVABvAG8AbAAvAG0AYQBpAG4ALgBjAHAAcAAAABAAbQBhAGkAbgAuAGMAcABwAAAAE0NwcEVkaXRvci5DKytFZGl0b3IAAAA+AC8AaABvAG0AZQAvAG0AaQBjAGgAYQBlAGwALwBRAEMAVABvAG8AbAAvAHEAYwB0AG8AbwBsAC4AYwBwAHAAAAAUAHEAYwB0AG8AbwBsAC4AYwBwAHAAAAATQ3BwRWRpdG9yLkMrK0VkaXRvcgAAAD4ALwBoAG8AbQBlAC8AbQBpAGMAaABhAGUAbAAvAFEAQwBUAG8AbwBsAC8AUQBDAFQAbwBvAGwALgBwAHIAbwAAABQAUQBDAFQAbwBvAGwALgBwAHIAbwAAABFRdDQucHJvRmlsZUVkaXRvcgAAAJUAAAANY3VycmVudGVkaXRvcgAAAD4ALwBoAG8AbQBlAC8AbQBpAGMAaABhAGUAbAAvAFEAQwBUAG8AbwBsAC8AUQBDAFQAbwBvAGwALgBwAHIAbwAAACIAUQB0ADQALgBwAHIAbwBGAGkAbABlAEUAZABpAHQAbwByAAAAGAAAAAEAAAAIAAAAAAAAAAkAAAAgAAAAAAAAAAA=</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/michael/QCTool/QCTool.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/michael/QCTool/QCTool.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/home/michael/QCTool</value>
+    <value type="QString">Sources</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/michael/QCTool</value>
+    <value type="QString">Headers</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/michael/QCTool</value>
+    <value type="QString">QCTool</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/michael/QCTool</value>
+    <value type="QString">Forms</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+  </valuelist>
+ </data>
+</qtcreator>

@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Color Convert",
+		"Color Highlight",
+		"Color Highlighter",
+		"Colorcoder",
+		"ColorHelper",
+		"Colorsublime",
+		"Icon Fonts",
+		"Materialize",
+		"Package Control"
+	]
+}

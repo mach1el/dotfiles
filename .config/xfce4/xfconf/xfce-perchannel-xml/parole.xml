@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="parole" version="1.0">
+  <property name="subtitles" type="empty">
+    <property name="font" type="string" value="Sans Bold 20"/>
+  </property>
+  <property name="window" type="empty">
+    <property name="maximized" type="bool" value="false"/>
+    <property name="width" type="int" value="1141"/>
+    <property name="height" type="int" value="519"/>
+  </property>
+  <property name="audio" type="empty">
+    <property name="volume" type="int" value="100"/>
+  </property>
+  <property name="playlist" type="empty">
+    <property name="show-playlist" type="bool" value="true"/>
+    <property name="remember-playlist" type="bool" value="true"/>
+    <property name="play-opened-files" type="bool" value="false"/>
+    <property name="repeat" type="bool" value="true"/>
+  </property>
+  <property name="folders" type="empty">
+    <property name="last-used-media" type="string" value="/home/michael/Videos"/>
+  </property>
+  <property name="video" type="empty">
+    <property name="aspect-ratio" type="string" value="PAROLE_ASPECT_RATIO_16_9"/>
+  </property>
+  <property name="parole" type="empty">
+    <property name="plugins" type="string" value="/usr/lib/parole-0/tray-icon.so"/>
+  </property>
+</channel>

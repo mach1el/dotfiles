@@ -1,0 +1,197 @@
+[/]
+desktop-effects-unmaximize-transition='easeNone'
+extension-cache-updated=1535970781
+desktop-effects-on-dialogs=false
+desktop-effects-maximize-transition='easeInExpo'
+applet-cache-updated=1535970768
+active-display-scale=1
+desktop-effects-map-effect='traditional'
+command-history=['dde-dock', 'tor', 'xfce4-terminal', 'termite', 'plank', 'plank --preferences']
+alttab-switcher-show-all-workspaces=false
+desktop-effects-close-effect='traditional'
+hotcorner-layout=['expo:false:0', 'scale:false:0', 'scale:true:0', 'expo:true:0']
+desktop-effects-unmaximize-time=100
+desklet-snap-interval=25
+desktop-effects-map-time=100
+enabled-desklets=@as []
+desktop-effects-minimize-effect='traditional'
+alttab-switcher-style='icons'
+panels-scale-text-icons=['1:true']
+desktop-effects=true
+workspace-expo-view-as-grid=false
+panels-height=['1:22']
+enable-vfade=false
+next-applet-id=20
+panel-launchers=['DEPRECATED']
+desktop-effects-map-transition='easeOutQuad'
+desktop-effects-tile-transition='easeInQuad'
+desktop-effects-unmaximize-effect='none'
+panels-enabled=['1:0:top']
+desktop-effects-maximize-time=100
+panels-resizable=['1:true']
+desktop-effects-maximize-effect='none'
+desktop-effects-on-menus=false
+enabled-applets=['panel1:right:5:systray@cinnamon.org:0', 'panel1:left:0:menu@cinnamon.org:1', 'panel1:left:2:panel-launchers@cinnamon.org:3', 'panel1:right:6:keyboard@cinnamon.org:5', 'panel1:right:7:notifications@cinnamon.org:6', 'panel1:right:8:removable-drives@cinnamon.org:7', 'panel1:right:9:user@cinnamon.org:8', 'panel1:right:10:network@cinnamon.org:9', 'panel1:right:11:power@cinnamon.org:11', 'panel1:right:12:calendar@cinnamon.org:12', 'panel1:right:13:sound@cinnamon.org:13', 'panel1:right:3:multicore-sys-monitor@ccadeptic23:15', 'panel1:right:2:weather@mockturtl:17', 'panel1:right:1:download-and-upload-speed@cardsurf:18', 'panel1:right:4:color-picker@fmete:19']
+desktop-effects-minimize-time=160
+alttab-switcher-delay=100
+desktop-effects-tile-effect='none'
+desktop-effects-close-transition='easeOutQuad'
+workspace-osd-duration=200
+enabled-extensions=['!blur-overview@nailfarmer.nailfarmer.com', 'transparent-panels@germanfr']
+desktop-effects-minimize-transition='easeInQuad'
+panel-edit-mode=false
+show-media-keys-osd='small'
+desklet-cache-updated=1535970756
+desktop-effects-close-time=120
+no-adjacent-panel-barriers=false
+workspace-osd-y=50
+workspace-osd-x=50
+desktop-effects-tile-time=100
+panels-autohide=['1:intel']
+device-aliases=['/org/freedesktop/UPower/devices/battery_BAT0:=ASUSTeK ASUS Battery']
+
+[muffin]
+resize-threshold=24
+tile-hud-threshold=25
+workspace-cycle=true
+
+[desktop/interface]
+text-scaling-factor=0.90000000000000002
+cursor-size=24
+font-name='SF Pro Display 11'
+scaling-factor=uint32 0
+toolkit-accessibility=false
+cursor-theme='Breeze-White'
+cursor-blink-time=1200
+icon-theme='la-capitaine-icon-theme-0.6.0'
+gtk-theme='Lumiere'
+
+[desktop/keybindings/custom-keybindings/custom0]
+binding=['<Primary><Alt>t']
+command='termite'
+name='Terminal'
+
+[desktop/keybindings]
+custom-list=['custom0']
+show-desklets=@as []
+
+[desktop/keybindings/media-keys]
+terminal=@as []
+
+[desktop/keybindings/wm]
+move-to-workspace-1=['<Primary><Super>1']
+move-to-workspace-2=['<Primary><Super>2']
+move-to-workspace-3=['<Primary><Super>3']
+move-to-workspace-4=['<Primary><Super>4']
+move-to-workspace-5=['<Primary><Super>5']
+move-to-workspace-6=['<Primary><Super>6']
+move-to-workspace-7=['<Primary><Super>7']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-6=['<Super>6']
+switch-to-workspace-7=['<Super>7']
+switch-to-workspace-5=['<Super>5']
+switch-to-workspace-down=['<Super>a']
+switch-to-workspace-up=['<Super>s', '<Alt>F1']
+
+[desktop/media-handling]
+autorun-never=false
+
+[desktop/screensaver]
+font-message='SF Pro Display 14'
+screensaver-name=''
+layout-group=0
+font-date='SF Pro Display 24'
+font-time='SF Pro Display 64'
+screensaver-webkit-theme='webkit-stars@cinnamon.org'
+
+[desktop/applications/terminal]
+exec='xfce4-terminal'
+
+[desktop/privacy]
+recent-files-max-age=-1
+remember-recent-files=false
+
+[desktop/wm/preferences]
+min-window-opacity=30
+button-layout='close,minimize,maximize:menu'
+theme='Zukitre'
+num-workspaces=7
+titlebar-font='SF Pro Display 11'
+workspace-names=['Shell ', 'code ', 'WWW ', 'Document ', 'Music ♬', 'Apps ', 'Game ']
+
+[desktop/a11y/applications]
+screen-keyboard-enabled=false
+screen-reader-enabled=false
+
+[desktop/a11y/keyboard]
+mousekeys-init-delay=300
+mousekeys-max-speed=10
+mousekeys-accel-time=300
+bouncekeys-delay=300
+slowkeys-delay=300
+
+[desktop/a11y/mouse]
+secondary-click-enabled=false
+secondary-click-time=1.2
+dwell-time=1.2
+dwell-threshold=10
+dwell-click-enabled=false
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/background]
+picture-uri='file:///home/michael/Pictures/6_Dota2-Lina.jpg'
+picture-options='zoom'
+
+[desktop/background/slideshow]
+image-source='directory:///home/michael/Pictures'
+delay=15
+
+[theme]
+theme-cache-updated=1535964092
+name='Apple-Arc-OSX'
+
+[cinnamon-session]
+quit-time-delay=60
+
+[settings-daemon/plugins/power]
+lock-on-suspend=true
+sleep-display-battery=900
+lid-close-battery-action='suspend'
+sleep-display-ac=900
+lid-close-ac-action='suspend'
+sleep-inactive-ac-timeout=1800
+sleep-inactive-battery-timeout=1800
+
+[settings-daemon/plugins/xsettings]
+hinting='full'
+
+[settings-daemon/peripherals/touchpad]
+motion-threshold=1
+custom-acceleration=false
+horizontal-scrolling=true
+custom-threshold=false
+clickpad-click=2
+touchpad-enabled=true
+
+[settings-daemon/peripherals/keyboard]
+repeat-interval=uint32 30
+delay=uint32 500
+numlock-state='on'
+
+[settings-daemon/peripherals/mouse]
+drag-threshold=8
+motion-threshold=1
+double-click=400
+
+[sounds]
+notification-file='/home/michael/.Sounds/notifications.ogg'
+notification-enabled=true
+plug-file='/home/michael/.Sounds/notifications.ogg'
+unplug-enabled=true
+plug-enabled=true
+unplug-file='/home/michael/.Sounds/notifications.ogg'
