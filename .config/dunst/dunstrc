@@ -74,4 +74,4 @@
 
 [play_sound]
     summary = "*"
-    script = /home/pis/.Sounds/alert.sh
+    script = /home/michael/.Sounds/alert.sh
