@@ -1,6 +1,7 @@
 {
     "ApplicationAttribute": {
-        "ThemeName": "dark",
+        "IconSizeLevel": 2,
+        "ThemeName": "light",
         "UrlOfNewWindow": "standard://home"
     }
 }

@@ -19,7 +19,7 @@
     <property name="repeat" type="bool" value="true"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/home/michael/Videos"/>
+    <property name="last-used-media" type="string" value="/home/michael/hcgs1/export"/>
   </property>
   <property name="video" type="empty">
     <property name="aspect-ratio" type="string" value="PAROLE_ASPECT_RATIO_16_9"/>

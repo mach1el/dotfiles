@@ -1,7 +1,8 @@
 [KFileDialog Settings]
+Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
-Decoration position=0
+Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Show Bookmarks=false

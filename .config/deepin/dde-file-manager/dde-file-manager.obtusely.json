@@ -17,8 +17,15 @@
         ]
     },
     "FileViewState": {
+        "computer:///": {
+            "iconSizeLevel": 2
+        },
         "file:///run": {
             "iconSizeLevel": 1,
+            "viewMode": 1
+        },
+        "file:///run/media/michael/Data": {
+            "iconSizeLevel": 2,
             "viewMode": 1
         },
         "network:///": {
@@ -26,19 +33,19 @@
             "viewMode": 1
         },
         "recent:///": {
-            "iconSizeLevel": 1,
+            "iconSizeLevel": 2,
             "sortOrder": 0,
             "sortRole": 263,
             "viewMode": 1
         },
         "standard://downloads": {
-            "iconSizeLevel": 1,
+            "iconSizeLevel": 2,
             "sortOrder": 1,
             "sortRole": 262,
             "viewMode": 1
         },
         "standard://home": {
-            "iconSizeLevel": 1,
+            "iconSizeLevel": 2,
             "sortOrder": 0,
             "sortRole": 265,
             "viewMode": 1
@@ -49,8 +56,8 @@
             "sidebar": 200
         },
         "WindowState": {
-            "height": 630,
-            "width": 1044
+            "height": 707,
+            "width": 1266
         }
     }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportFormatSpecification name="BWAV 32float Export" id="20b4ab09-6452-4cb3-bd66-b921cdbd2942" with-cue="0" with-toc="0" with-mp4chaps="0" command="" analyse="1" soundcloud-upload="0">
+  <Encoding id="F_WAV" type="T_Sndfile" extension="wav" name="BWF" has-sample-format="1" channel-limit="256"/>
+  <SampleRate rate="SR_Session"/>
+  <SRCQuality quality="SRC_SincBest"/>
+  <EncodingOptions>
+    <Option name="sample-format" value="SF_Float"/>
+    <Option name="dithering" value="D_None"/>
+    <Option name="tag-metadata" value="0"/>
+    <Option name="tag-support" value="0"/>
+    <Option name="broadcast-info" value="1"/>
+  </EncodingOptions>
+  <Processing>
+    <Normalize enabled="0" loudness="0" dbfs="0" lufs="-23" dbtp="-1"/>
+    <Silence>
+      <Start>
+        <Trim enabled="0"/>
+        <Add enabled="0">
+          <Duration format="Timecode" hours="0" minutes="0" seconds="0" frames="0"/>
+        </Add>
+      </Start>
+      <End>
+        <Trim enabled="0"/>
+        <Add enabled="0">
+          <Duration format="Timecode" hours="0" minutes="0" seconds="0" frames="0"/>
+        </Add>
+      </End>
+    </Silence>
+  </Processing>
+</ExportFormatSpecification>

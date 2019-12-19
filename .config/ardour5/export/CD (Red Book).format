@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportFormatSpecification name="CD (Red Book)" id="7bb867db-67b0-4aaf-9987-38c31e15052e" with-cue="0" with-toc="0" with-mp4chaps="0" command="" analyse="0" soundcloud-upload="0">
+  <Encoding id="F_WAV" type="T_Sndfile" extension="wav" name="WAV" has-sample-format="1" channel-limit="256"/>
+  <SampleRate rate="SR_44_1"/>
+  <SRCQuality quality="SRC_SincBest"/>
+  <EncodingOptions>
+    <Option name="sample-format" value="SF_16"/>
+    <Option name="dithering" value="D_Shaped"/>
+    <Option name="tag-metadata" value="0"/>
+    <Option name="tag-support" value="0"/>
+    <Option name="broadcast-info" value="0"/>
+  </EncodingOptions>
+  <Processing>
+    <Normalize enabled="1" loudness="0" dbfs="-0" lufs="-23" dbtp="-1"/>
+    <Silence>
+      <Start>
+        <Trim enabled="0"/>
+        <Add enabled="0">
+          <Duration format="Timecode" hours="0" minutes="0" seconds="0" frames="0"/>
+        </Add>
+      </Start>
+      <End>
+        <Trim enabled="0"/>
+        <Add enabled="0">
+          <Duration format="Timecode" hours="0" minutes="0" seconds="0" frames="0"/>
+        </Add>
+      </End>
+    </Silence>
+  </Processing>
+</ExportFormatSpecification>
