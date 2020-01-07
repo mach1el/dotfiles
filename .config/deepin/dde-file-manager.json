@@ -1,6 +1,7 @@
 {
     "GenericAttribute": {
         "AutoMount": true,
+        "PreviewCompressFile": true,
         "ShowedFileSuffixOnRename": false,
         "ShowedHiddenFiles": false
     }

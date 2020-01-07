@@ -4,7 +4,7 @@
 		"/home/michael"
 	],
 	"last_version": 3211,
-	"last_window_id": 3,
+	"last_window_id": 4,
 	"log_indexing": false,
 	"settings":
 	{
@@ -146,7 +146,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 213.0,
+			"side_bar_width": 182.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -219,10 +219,15 @@
 			],
 			"file_history":
 			[
+				"/home/michael/htb/powny.php",
+				"/home/michael/.java/.userPrefs/burp/prefs.xml",
+				"/run/media/michael/Data/scripts/QCTool.py",
+				"/run/media/michael/Data/scripts/GhostNET/ghostnet",
+				"/home/michael/arch-pentest-docker/Dockerfile"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -236,6 +241,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"font"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -266,7 +272,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"input":
 			{
@@ -300,11 +306,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,89,33,1792,972,1920,1080",
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -342,7 +348,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 213.0,
+			"side_bar_width": 182.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

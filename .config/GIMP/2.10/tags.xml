@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="fe758beb68ddf166f57cded39289a45b">
+  <resource identifier="gimp-palette-color-history" checksum="66ae23d8fc6d78d56233616b3a590606">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1474,13 +1474,25 @@
   <resource identifier="Cantarell" checksum="(null)">
   </resource>
 
+  <resource identifier="Cantarell" checksum="(null)">
+  </resource>
+
   <resource identifier="Cantarell Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Cantarell Light" checksum="(null)">
   </resource>
 
+  <resource identifier="Cantarell Light" checksum="(null)">
+  </resource>
+
   <resource identifier="Cantarell Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cantarell Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
@@ -1945,6 +1957,15 @@
   <resource identifier="Inconsolata Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Liberation Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Liberation Mono for Powerline" checksum="(null)">
   </resource>
 
@@ -1955,6 +1976,33 @@
   </resource>
 
   <resource identifier="Liberation Mono for Powerline Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Lucida Console Semi-Condensed" checksum="(null)">

@@ -17,6 +17,8 @@ text/x-python=sublime_text_3.desktop
 text/plain=deepin-editor.desktop
 image/jpeg=deepin-image-viewer.desktop
 text/x-c++src=sublime_text_3.desktop
+text/x-qml=sublime_text_3.desktop
+application/pdf=org.gnome.Evince.desktop
 
 [Added Associations]
 application/xml=org.gnome.gedit.desktop;
@@ -36,3 +38,5 @@ text/x-python=sublime_text_3.desktop;
 text/plain=sublime_text_3.desktop;deepin-editor.desktop;
 image/jpeg=deepin-image-viewer.desktop;
 text/x-c++src=sublime_text_3.desktop;
+text/x-qml=sublime_text_3.desktop;
+application/pdf=org.gnome.Evince.desktop;

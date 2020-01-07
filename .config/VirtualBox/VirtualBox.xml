@@ -17,8 +17,8 @@
       <ExtraDataItem name="GUI/SplitterSizes" value="318,635"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="4"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-12-20, stable, 6.1.0"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="5"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-01-07, stable, 6.1.0"/>
     </ExtraData>
     <MachineRegistry/>
     <NetserviceRegistry>

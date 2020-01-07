@@ -1,18 +1,18 @@
-00:00:00.179336 VirtualBox GUI VM Selector Window 6.1.0 r135406 linux.amd64 (Dec 12 2019 21:11:25) release log
-00:00:00.179338 Log opened 2019-12-19T01:57:11.236302000Z
-00:00:00.179338 Build Type: release
-00:00:00.179339 OS Product: Linux
-00:00:00.179340 OS Release: 5.4.4-zen1-1-zen
-00:00:00.179340 OS Version: #1 ZEN SMP PREEMPT Tue, 17 Dec 2019 23:22:28 +0000
-00:00:00.179354 DMI Product Name: ZenBook UX433FA_UX433FA
-00:00:00.179357 DMI Product Version: 1.0       
-00:00:00.179360 Firmware type: UEFI
-00:00:00.180077 Secure Boot: Disabled
-00:00:00.180101 Host RAM: 7775MB (7.5GB) total, 6908MB (6.7GB) available
-00:00:00.180103 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.180104 Process ID: 1597
-00:00:00.180104 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.180123 Qt version: 5.13.2
-00:00:00.218002 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.218017 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:00.586421 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1080
+00:00:00.208892 VirtualBox GUI VM Selector Window 6.1.0 r135406 linux.amd64 (Dec 12 2019 21:11:25) release log
+00:00:00.208894 Log opened 2020-01-06T08:23:06.811655000Z
+00:00:00.208894 Build Type: release
+00:00:00.208896 OS Product: Linux
+00:00:00.208897 OS Release: 5.4.8-zen1-1-zen
+00:00:00.208897 OS Version: #1 ZEN SMP PREEMPT Sat, 04 Jan 2020 23:38:36 +0000
+00:00:00.208917 DMI Product Name: ZenBook UX433FA_UX433FA
+00:00:00.208925 DMI Product Version: 1.0       
+00:00:00.208930 Firmware type: UEFI
+00:00:00.209478 Secure Boot: Disabled
+00:00:00.209525 Host RAM: 7775MB (7.5GB) total, 5186MB (5.0GB) available
+00:00:00.209529 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.209529 Process ID: 5093
+00:00:00.209530 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.209569 Qt version: 5.14.0
+00:00:00.252240 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.252290 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.693090 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1080
