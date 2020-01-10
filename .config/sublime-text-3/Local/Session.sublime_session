@@ -4,11 +4,11 @@
 		"/home/michael"
 	],
 	"last_version": 3211,
-	"last_window_id": 4,
+	"last_window_id": 2,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 939.0,
+		"new_window_height": 480.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -28,20 +28,20 @@
 				"selected_items":
 				[
 					[
+						"Package Control: instal",
+						"Package Control: Install Package"
+					],
+					[
 						"Package Control: in",
 						"Package Control: Install Package"
 					],
 					[
-						"UI",
-						"UI: Select Theme"
-					],
-					[
-						"Package Control: ",
+						"Package Control: inst",
 						"Package Control: Install Package"
 					],
 					[
-						"Package Control: i",
-						"Package Control: Install Package"
+						"install",
+						"Install Package Control"
 					]
 				],
 				"width": 0.0
@@ -51,7 +51,6 @@
 				"height": 136.0,
 				"history":
 				[
-					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 				]
 			},
 			"distraction_free":
@@ -146,13 +145,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 182.0,
+			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1703.0
+		"new_window_width": 640.0
 	},
 	"windows":
 	[
@@ -178,20 +177,20 @@
 				"selected_items":
 				[
 					[
+						"Package Control: instal",
+						"Package Control: Install Package"
+					],
+					[
 						"Package Control: in",
 						"Package Control: Install Package"
 					],
 					[
-						"UI",
-						"UI: Select Theme"
-					],
-					[
-						"Package Control: ",
+						"Package Control: inst",
 						"Package Control: Install Package"
 					],
 					[
-						"Package Control: i",
-						"Package Control: Install Package"
+						"install",
+						"Install Package Control"
 					]
 				],
 				"width": 0.0
@@ -201,7 +200,6 @@
 				"height": 136.0,
 				"history":
 				[
-					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 				]
 			},
 			"distraction_free":
@@ -219,15 +217,10 @@
 			],
 			"file_history":
 			[
-				"/home/michael/htb/powny.php",
-				"/home/michael/.java/.userPrefs/burp/prefs.xml",
-				"/run/media/michael/Data/scripts/QCTool.py",
-				"/run/media/michael/Data/scripts/GhostNET/ghostnet",
-				"/home/michael/arch-pentest-docker/Dockerfile"
 			],
 			"find":
 			{
-				"height": 34.0
+				"height": 0.0
 			},
 			"find_in_files":
 			{
@@ -241,7 +234,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"font"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -272,7 +264,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 34.0
+				"height": 0.0
 			},
 			"input":
 			{
@@ -310,7 +302,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 64.0
+				"height": 0.0
 			},
 			"save_all_on_build": true,
 			"select_file":
