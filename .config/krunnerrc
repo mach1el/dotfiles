@@ -1,0 +1,5 @@
+[General]
+history=qt5ct
+
+[PlasmaRunnerManager]
+LaunchCounts=1 shell_qt5ct

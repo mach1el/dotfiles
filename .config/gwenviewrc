@@ -1,0 +1,18 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[MainWindow]
+Height 1080=770
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABloAAALcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1626
+
+[Recent Files]
+File1[$e]=/run/media/michael/Data/Pictures/fay1.jpg
+File2[$e]=$HOME/Pictures/fay_cutie.jpg
+Name1[$e]=fay1.jpg
+Name2[$e]=fay_cutie.jpg
+
+[SideBar]
+SideBarSplitterSizes=242,1381

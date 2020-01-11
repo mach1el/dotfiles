@@ -4080,6 +4080,28 @@
 				<string>#0A0A0AFF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_00FFFFFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00FFFFFF</string>
+				<key>foreground</key>
+				<string>#323232FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_806E0005</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#806E0005</string>
+				<key>foreground</key>
+				<string>#A9A9A9FF</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

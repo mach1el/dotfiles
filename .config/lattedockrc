@@ -1,0 +1,22 @@
+[DownloadDialog Settings]
+Height 1080=508
+Width 1920=700
+
+[ScreenConnectors]
+10=eDP-1
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+currentLayout=Default
+downloadWindowSize=800,550
+lastNonAssignedLayout=Default
+launchers=
+layoutsColumnWidths=133,80,76,0
+layoutsWindowSize=700,595
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+version=1

@@ -1,0 +1,11 @@
+[OSD]
+Enabled=true
+
+[PlasmaToolTips]
+Delay=0.7
+
+[Theme]
+name=McMojave
+
+[Wallpapers]
+usersWallpapers=/home/michael/Pictures/wallpaper12.jpg,/home/michael/Pictures/wallpaper7.jpg,/home/michael/Pictures/fay1.jpg
