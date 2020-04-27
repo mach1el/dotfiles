@@ -1,8 +1,0 @@
-[parameters]
-CircScrollDelta=5.73
-HorizScrollDelta=2.3
-InvertHorizScroll=true
-MaxTapMove=3.6
-Tapping=false
-VertEdgeScroll=true
-VertScrollDelta=2.3

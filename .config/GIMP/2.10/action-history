@@ -1,8 +1,0 @@
-# GIMP action-history
-
-(history-item "file-overwrite" 4)
-(history-item "file-quit" 1)
-(history-item "tools-zoom" 0)
-(history-item "tools-clone" 4)
-
-# end of action-history

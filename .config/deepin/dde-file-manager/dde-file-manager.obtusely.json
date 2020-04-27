@@ -1,53 +1,9 @@
 {
-    "Cache": {
-        "SearchHistroy": [
-            "\\\\10.10.70.1",
-            "\\\\\\\\10.10.70.1",
-            "\\\\10.10.10.134",
-            "\\\\\\\\10.10.10.134",
-            "10.10.10.134",
-            "\\\\\\\\10.10.10.134 ",
-            "smb://10.10.70.1/galaxy",
-            "smb://10.10.70.1",
-            "\\\\\\\\192.168.0.2",
-            "\\\\192.168.0.2",
-            "192.168.0.2",
-            "smb://192.168.0.1",
-            "smb://19.168.0.2"
-        ]
-    },
     "FileViewState": {
-        "computer:///": {
-            "iconSizeLevel": 2
-        },
-        "file:///run": {
-            "iconSizeLevel": 1,
-            "viewMode": 1
-        },
-        "file:///run/media/michael/Data": {
-            "iconSizeLevel": 2,
-            "viewMode": 1
-        },
-        "network:///": {
-            "iconSizeLevel": 1,
-            "viewMode": 1
-        },
-        "recent:///": {
-            "iconSizeLevel": 2,
-            "sortOrder": 0,
-            "sortRole": 263,
-            "viewMode": 1
-        },
         "standard://downloads": {
             "iconSizeLevel": 2,
             "sortOrder": 1,
             "sortRole": 262,
-            "viewMode": 1
-        },
-        "standard://home": {
-            "iconSizeLevel": 2,
-            "sortOrder": 0,
-            "sortRole": 265,
             "viewMode": 1
         }
     },
@@ -56,8 +12,8 @@
             "sidebar": 200
         },
         "WindowState": {
-            "height": 707,
-            "width": 1262
+            "height": 730,
+            "width": 1282
         }
     }
 }
