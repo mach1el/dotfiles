@@ -1,0 +1,54 @@
+# settings
+
+(GimpGegl-gegl-edge-config "2020-05-09 20:34:43"
+    (time 1589031283)
+    (algorithm gradient)
+    (amount 3.7370000000000001)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 20:33:16"
+    (time 1589031196)
+    (algorithm gradient)
+    (amount 4.3159999999999998)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 20:28:13"
+    (time 1589030893)
+    (algorithm sobel)
+    (amount 4.3949999999999996)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 20:27:30"
+    (time 1589030850)
+    (algorithm gradient)
+    (amount 4.1840000000000002)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 20:15:20"
+    (time 1589030120)
+    (algorithm gradient)
+    (amount 4.1050000000000004)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 20:03:21"
+    (time 1589029401)
+    (algorithm gradient)
+    (amount 4.2370000000000001)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 19:54:31"
+    (time 1589028871)
+    (algorithm sobel)
+    (amount 2)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 19:51:04"
+    (time 1589028664)
+    (algorithm gradient)
+    (amount 4.4210000000000003)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 18:38:39"
+    (time 1589024319)
+    (algorithm gradient)
+    (amount 3.9470000000000001)
+    (border-behavior clamp))
+(GimpGegl-gegl-edge-config "2020-05-09 18:31:59"
+    (time 1589023919)
+    (algorithm gradient)
+    (amount 4.5259999999999998)
+    (border-behavior clamp))
+
+# end of settings

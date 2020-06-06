@@ -1,0 +1,109 @@
+[KFileDialog Settings]
+Recent Files[$e]=simplescreenrecorder-2020-04-30_10.34.45.mp4,file:///run/media/michael/Data/pts/mp_1.png,file:///run/media/michael/Data/pts/test4.png,file:///run/media/michael/Data/pts/test3.png,file:///run/media/michael/Data/pts/test2.png,file:///run/media/michael/Data/pts/test1.png,file:///run/media/michael/Data/pts/mp2.png,file:$HOME/Downloads/Supernatural 11x09 Lucifer shows up and talk with Sam Winchester..mp4
+Recent URLs[$e]=file:///run/media/michael/Data/pts/
+detailViewIconSize=0
+iconViewIconSize=53
+listViewIconSize=15
+
+[MainWindow]
+Height 1080=1052
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAeAAAACMPwBAAAADvsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAYAEAAAP7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAZwEAAAP7AAAAFABzAGMAcgBlAGUAbgBnAHIAYQBiAAAAAAD/////AAAAmgEAAAP7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAagEAAAP7AAAAFgBwAHIAbwBqAGUAYwB0AF8AYgBpAG4BAAAAAAAAARkAAABgAQAAA/wAAAEaAAABGAAAAIsA////+gAAAAABAAAAAvsAAAAYAGUAZgBmAGUAYwB0AF8AcwB0AGEAYwBrAQAAAAD/////AAAAYAEAAAP7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAGABAAAD/AAAAjMAAAGXAAAAiwD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAAAEAQAAA/sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAAQBAAAD/AAAA8sAAAO1AAABRAD////6AAAAAQEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFEAQAAA/sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABRAEAAAP7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAGABAAAD+wAAAAoAbQBpAHgAZQByAAAAAAD/////AAAAYwEAAAP7AAAAFgB2AGUAYwB0AG8AcgBzAGMAbwBwAGUAAAAAAP////8AAAFWAQAAA/sAAAAQAHcAYQB2AGUAZgBvAHIAbQAAAAAA/////wAAAMABAAAD+wAAABQAcgBnAGIAXwBwAGEAcgBhAGQAZQAAAAAA/////wAAALcBAAAD+wAAABIAaABpAHMAdABvAGcAcgBhAG0AAAAAAP////8AAAFeAQAAAwAAB4AAAAGFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgEAAAJc/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1920
+Window-Maximized 1080x1920=true
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=/run/media/michael/Data/pts/,$HOME/Downloads/,$HOME/Videos/
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[UiSettings]
+ColorScheme=Breeze Dark
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAAQAAAAAYAAAApAAAABQAAAFoAAAAEAAAANAAAAAMAAAA9AAAAAgAAAG8AAAABAAAAPAAAAREAAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAABEQAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABE
+
+[capture]
+decklink_capturedevice=4294967295
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+defaultaudiocapture=0
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultimageapp=/usr/bin/gimp
+defaultprojectfolder[$e]=$HOME/Videos
+encodethreads=8
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt/profiles
+rendererpath[$e]=/usr/bin/melt
+
+[project]
+audiotracks=3
+externalProxyProfile=../Sub;;S03.MP4;../Clip;;.MXF
+videotracks=3
+
+[sdl]
+blackmagic_output_device=-1
+
+[settings]
+dialogSize=1024,700
+
+[shuttle]
+shuttlebuttons=button0=monitor_pause
+
+[timeline]
+headerwidth=186
+trackheight=69
+
+[unmanaged]
+default_profile=atsc_1080p_25
+defaultrescaleheight=720
+defaultrescalewidth=1280
+force_breeze=true
+monitor_audio=false
+producerslist=qimage,qtext,kdenlivetitle,pango,pixbuf,pgm,slowmotion,sdl_image,xml,xml-string,xml-nogl,vorbis,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,avformat,avformat-novalidate,decklink,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,framebuffer,blipflash,count
+project_fps=60
+showeffectinfo=true
+use_dark_breeze=true
+widgetstyle=Default
+
+[version]
+version=20.04.0
