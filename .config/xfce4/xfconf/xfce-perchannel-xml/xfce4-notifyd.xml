@@ -4,6 +4,7 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="chromium"/>
+      <value type="string" value="deepin-screen-recorder"/>
       <value type="string" value="Firefox"/>
       <value type="string" value="notify-send"/>
       <value type="string" value="Xfce volume control"/>
@@ -22,4 +23,5 @@
   <property name="theme" type="string" value="Default"/>
   <property name="do-slideout" type="bool" value="true"/>
   <property name="do-fadeout" type="bool" value="true"/>
+  <property name="notification-log" type="bool" value="true"/>
 </channel>

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=A desktop agnostic launcher
+Exec=albert
+GenericName=Launcher
+Icon=albert
+Name=Albert
+StartupNotify=false
+Type=Application
+Version=1.0
+X-Deepin-CreatedBy=com.deepin.SessionManager
+X-Deepin-AppID=albert
+Hidden=true
+

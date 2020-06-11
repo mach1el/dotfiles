@@ -58,7 +58,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="enable-wnck" type="bool" value="false"/>
-      <property name="mpris-players" type="string" value="chromium.instance1853"/>
+      <property name="mpris-players" type="string" value="chromium.instance1628;chromium.instance1853"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
