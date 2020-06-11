@@ -1,10 +1,10 @@
 xset -b &
-xscreensaver -no-splash &
 nm-applet &
-# setxkbmap -layout "us,vn" -option "grp:win_space_toggle" &
-feh --bg-fill ~/Pictures/spectre.jpg &
-polybar -c ~/.config/polybar/i3top top &
+ibus-daemon &
+feh --bg-fill ~/Pictures/sunset.jpg &
+#polybar -c ~/.config/polybar/i3top top &
 compton --config ~/.config/compton &
 mpd -c ~/.config/mpd/mpd.conf &
 dunst -c ~/.config/dunst/dunstrc &
+xfce4-panel &
 plank &

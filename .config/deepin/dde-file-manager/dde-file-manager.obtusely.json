@@ -1,18 +1,10 @@
 {
     "FileViewState": {
-        "file:///run/media/michael/Data/pts": {
-            "iconSizeLevel": 3,
-            "viewMode": 1
-        },
         "standard://downloads": {
-            "iconSizeLevel": 2,
+            "iconSizeLevel": 3,
             "sortOrder": 1,
             "sortRole": 262,
             "viewMode": 1
-        },
-        "standard://home": {
-            "sortOrder": 0,
-            "sortRole": 265
         }
     },
     "WindowManager": {
@@ -20,8 +12,8 @@
             "sidebar": 200
         },
         "WindowState": {
-            "height": 733,
-            "width": 1418
+            "height": 824,
+            "width": 1392
         }
     }
 }

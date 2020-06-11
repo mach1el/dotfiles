@@ -1,6 +1,14 @@
 {
     "ApplicationAttribute": {
-        "IconSizeLevel": 2,
+        "IconSizeLevel": 3,
         "UrlOfNewWindow": "standard://home"
+    },
+    "BurnCapacityAttribute": {
+        "sda1": {
+            "BurnCapacityExt": 0,
+            "BurnCapacityStatus": 0,
+            "BurnCapacityTotalSize": 0,
+            "BurnCapacityUsedSize": 0
+        }
     }
 }
