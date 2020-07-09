@@ -1,0 +1,10 @@
+# GIMP gimp-pencil-tool options
+
+(brush "Cell 01")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 18)
+(brush-spacing 0.5)
+
+# end of gimp-pencil-tool options

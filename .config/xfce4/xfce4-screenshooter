@@ -1,8 +1,8 @@
-app=deepin-image-viewer
+app=none
 last_user=
 screenshot_dir=file:///home/michael/Pictures
 action=1
 delay=0
-region=3
+region=1
 show_mouse=1
 

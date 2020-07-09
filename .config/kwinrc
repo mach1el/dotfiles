@@ -1,0 +1,17 @@
+[Compositing]
+Enabled=true
+OpenGLIsUnsafe=false
+OpenGLIsUnsafeCount=4
+
+[Desktops]
+Id_1=1fc79903-f610-4855-bf97-212884a0cd71
+Id_2=f378a63b-e737-4f9d-bb70-bbe570bf01fd
+Id_3=61bb0491-39b5-4bd0-b9a9-ec93a020729b
+Id_4=2b94fdce-4473-4a82-ad0b-1aa7e369f7b8
+Number=4
+
+[Script-closewindowaction]
+BorderActivate=
+
+[Script-runcommandaction]
+BorderActivate=

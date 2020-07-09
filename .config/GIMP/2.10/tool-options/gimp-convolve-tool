@@ -1,0 +1,9 @@
+# GIMP gimp-convolve-tool options
+
+(brush "Cell 01")
+(dynamics "Dynamics Off")
+(palette "Color History")
+(brush-size 18)
+(brush-spacing 0.5)
+
+# end of gimp-convolve-tool options

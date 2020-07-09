@@ -149,7 +149,7 @@
   </menu>
   </menu>
   <separator/>
-    <item label="Lock"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
-    <item label="Exit"><action name="Exit"/></item>
+    <item label="Lock"><action name="Execute"><command><![CDATA[xfce4-screensaver-command --lock]]></command></action></item>
+    <item label="Exit"><action name="Execute"><command>oblogout</command></action></item>
   </menu>
 </openbox_menu>

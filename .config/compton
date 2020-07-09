@@ -1,5 +1,5 @@
 backend = "glx";
-vsync = true;
+# vsync = true;
 
 shadow = true;
 shadow-radius = 10;

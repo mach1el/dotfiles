@@ -21,14 +21,13 @@
         <value type="int" value="13"/>
         <value type="int" value="7"/>
         <value type="int" value="4"/>
-        <value type="int" value="14"/>
       </property>
-      <property name="background-style" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="1.000000"/>
-        <value type="double" value="0.000000"/>
-        <value type="double" value="0.000000"/>
-        <value type="double" value="0.000000"/>
+        <value type="double" value="0.168627"/>
+        <value type="double" value="0.180392"/>
+        <value type="double" value="0.215686"/>
+        <value type="double" value="0.950000"/>
       </property>
     </property>
   </property>
@@ -44,6 +43,7 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="thunar"/>
         <value type="string" value="albert"/>
         <value type="string" value="ibus-ui-gtk3"/>
         <value type="string" value="steam"/>
@@ -59,23 +59,6 @@
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-14" type="string" value="actions">
-      <property name="appearance" type="uint" value="0"/>
-      <property name="items" type="array">
-        <value type="string" value="-lock-screen"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-suspend"/>
-        <value type="string" value="-hibernate"/>
-        <value type="string" value="-hybrid-sleep"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-shutdown"/>
-        <value type="string" value="-restart"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-logout-dialog"/>
-      </property>
     </property>
     <property name="plugin-2" type="string" value="whiskermenu"/>
     <property name="plugin-7" type="string" value="pulseaudio">
