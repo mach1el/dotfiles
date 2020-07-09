@@ -1,7 +1,7 @@
 xset -b &
 nm-applet &
 xfce4-screensaver &
-feh --bg-fill ~/Pictures/sunset.jpg &
+feh --bg-fill ~/Pictures/wall1.jpg &
 #polybar -c ~/.config/polybar/i3top top &
 compton --config ~/.config/compton &
 mpd -c ~/.config/mpd/mpd.conf &
