@@ -8,4 +8,4 @@ rofi -sidebar-mode \
 -location 0 \
 -show drun \
 -columns 3 \
--font "Noto Sans 8"
+-font "Hack 9"
