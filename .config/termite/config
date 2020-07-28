@@ -8,7 +8,7 @@ cursor_blink = system
 cursor_shape = block
 dynamic_title = true
 filter_unmatched_urls = true
-font = Monaco 10
+font = Hack 11
 geometry = 750x470
 icon_name = terminal
 modify_other_keys = false
@@ -33,7 +33,7 @@ highlight = #30343e
 
 [colors]
 foreground = #474c57
-background = #ffffff
+background = #b48ead
 foreground_bold = #3f444f
 cursor = #fec7cd
 cursor_foreground = #474c57

@@ -14,11 +14,9 @@
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="8"/>
-        <value type="int" value="5"/>
-        <value type="int" value="6"/>
         <value type="int" value="11"/>
+        <value type="int" value="6"/>
         <value type="int" value="12"/>
-        <value type="int" value="13"/>
         <value type="int" value="7"/>
         <value type="int" value="4"/>
       </property>
@@ -36,18 +34,18 @@
       <property name="expand" type="bool" value="false"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-5" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="teamviewer"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="thunar"/>
         <value type="string" value="albert"/>
         <value type="string" value="ibus-ui-gtk3"/>
         <value type="string" value="steam"/>
       </property>
+      <property name="size-max" type="uint" value="20"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -57,13 +55,10 @@
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-format" type="string" value="%T"/>
     </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-2" type="string" value="whiskermenu"/>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance39451;rhythmbox"/>
+      <property name="mpris-players" type="string" value="chrome.instance14765;chrome.instance2333;chrome.instance3022;chrome.instance4701;chromium.instance112832;chromium.instance1904;chromium.instance23443;chromium.instance2810;chromium.instance39451;chromium.instance7340;chromium.instance8029;chromium.instance89382;chromium.instance94594;rhythmbox"/>
     </property>
     <property name="plugin-8" type="string" value="appmenu"/>
     <property name="plugin-4" type="string" value="power-manager-plugin"/>

@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Colorcoder/Seti (Colorcoded).tmTheme",
+	"font_face": "Hermit",
+	"font_size": 12.5,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"original_color_scheme": "Packages/Seti_UX/Seti.tmTheme",
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"word_wrap": "true"
+}

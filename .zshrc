@@ -92,7 +92,7 @@ alias lc="colorls"
 alias pbcopy="xsel --clipboard --input"
 alias pbpaste="xsel --clipboard --output"
 alias htbnet="sudo openvpn --config .Mich43l.ovpn | lolcat"
-alias runarchsec="docker run -tid --rm --name=archsec --network=host -v $HOME/htb-solutions:/root/htb archsec"
+alias runarchsec="docker run -tid --rm --name=archsec --network=host -v $HOME/htb-notes:/root/htb archsec"
 alias spawnas="docker exec -ti archsec /bin/zsh"
 
 BULLETTRAIN_EXIT_SHOW=true

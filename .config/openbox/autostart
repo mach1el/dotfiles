@@ -6,6 +6,6 @@ feh --bg-fill ~/Pictures/wall1.jpg &
 #polybar -c ~/.config/polybar/i3top top &
 compton --config ~/.config/compton &
 mpd -c ~/.config/mpd/mpd.conf &
-dunst -c ~/.config/dunst/dunstrc &
+dunst -c ~/.config/dunst/dunstrc-dark &
 xfce4-panel &
 plank &

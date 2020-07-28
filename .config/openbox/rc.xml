@@ -42,7 +42,7 @@
 					'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Raven-Crimson</name>
+    <name>Arc-Dark</name>
     <titleLayout>CIMSDLN</titleLayout>
     <!--
 		available characters are NDSLIMC, each can occur at most once.
@@ -184,7 +184,7 @@
     <!-- Keybindings for desktop switching -->
     <keybind key="Print">
       <action name="Execute">
-        <command>gnome-screenshot</command>
+        <command>xfce4-screenshooter</command>
       </action>
     </keybind>
     <keybind key="A-F2">
@@ -444,7 +444,7 @@
   <mouse>
     <dragThreshold>1</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->
-    <doubleClickTime>500</doubleClickTime>
+    <doubleClickTime>900</doubleClickTime>
     <!-- in milliseconds (1000 = 1 second) -->
     <screenEdgeWarpTime>400</screenEdgeWarpTime>
     <!-- Time before changing desktops when the pointer touches the edge of the
@@ -513,7 +513,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action xmlns="http://openbox.org/3.4/rc" name="ToggleMaximize"/>
       </mousebind>
       <mousebind button="Up" action="Click">
         <action name="if">

@@ -46,7 +46,7 @@ blur-background-exclude = [
 
 # Fading
 fading = true;
-fade-delta = 8;
+fade-delta = 5;
 fade-in-step = 0.02;
 fade-out-step = 0.02;
 # no-fading-openclose = true;
