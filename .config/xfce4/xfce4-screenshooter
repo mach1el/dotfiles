@@ -1,6 +1,6 @@
 app=eog
 last_user=
-screenshot_dir=file:/home/michael/Desktop
+screenshot_dir=file:///home/michael
 action=1
 delay=0
 region=3

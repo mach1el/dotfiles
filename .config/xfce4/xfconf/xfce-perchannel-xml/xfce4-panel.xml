@@ -54,6 +54,7 @@
     </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-format" type="string" value="%T"/>
+      <property name="timezone" type="string" value="Asia/Ho_Chi_Minh"/>
     </property>
     <property name="plugin-2" type="string" value="whiskermenu"/>
     <property name="plugin-7" type="string" value="pulseaudio">

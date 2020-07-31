@@ -7,7 +7,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
+          <property name="last-image" type="string" value="/home/michael/Pictures/wall1.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -102,5 +102,6 @@
     <property name="primary" type="bool" value="false"/>
     <property name="use-custom-font-size" type="bool" value="false"/>
     <property name="show-hidden-files" type="bool" value="false"/>
+    <property name="style" type="int" value="0"/>
   </property>
 </channel>
