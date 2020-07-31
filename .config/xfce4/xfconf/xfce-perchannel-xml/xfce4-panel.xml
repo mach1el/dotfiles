@@ -27,6 +27,7 @@
         <value type="double" value="0.215686"/>
         <value type="double" value="0.950000"/>
       </property>
+      <property name="span-monitors" type="bool" value="false"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -38,6 +39,8 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="zoiper"/>
+        <value type="string" value="cadence"/>
         <value type="string" value="teamviewer"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="thunar"/>
@@ -59,7 +62,7 @@
     <property name="plugin-2" type="string" value="whiskermenu"/>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chrome.instance14765;chrome.instance2333;chrome.instance3022;chrome.instance4701;chromium.instance112832;chromium.instance1904;chromium.instance23443;chromium.instance2810;chromium.instance39451;chromium.instance7340;chromium.instance8029;chromium.instance89382;chromium.instance94594;rhythmbox"/>
+      <property name="mpris-players" type="string" value="chrome.instance14765;chrome.instance2333;chrome.instance3022;chrome.instance4701;chromium.instance112832;chromium.instance1874;chromium.instance1904;chromium.instance23443;chromium.instance2810;chromium.instance39451;chromium.instance7340;chromium.instance8029;chromium.instance89382;chromium.instance94594;rhythmbox"/>
     </property>
     <property name="plugin-8" type="string" value="appmenu"/>
     <property name="plugin-4" type="string" value="power-manager-plugin"/>
