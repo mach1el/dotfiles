@@ -11,16 +11,18 @@
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="20"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="2"/>
+        <value type="int" value="5"/>
         <value type="int" value="3"/>
         <value type="int" value="8"/>
         <value type="int" value="11"/>
         <value type="int" value="6"/>
         <value type="int" value="12"/>
+        <value type="int" value="2"/>
         <value type="int" value="7"/>
         <value type="int" value="4"/>
+        <value type="int" value="1"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.168627"/>
         <value type="double" value="0.180392"/>
@@ -29,6 +31,7 @@
       </property>
       <property name="span-monitors" type="bool" value="false"/>
     </property>
+    <property name="dark-mode" type="bool" value="false"/>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-3" type="string" value="separator">
@@ -49,6 +52,17 @@
         <value type="string" value="steam"/>
       </property>
       <property name="size-max" type="uint" value="20"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="ibus panel"/>
+        <value type="string" value="zoiper"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="ibus-ui-gtk3"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="obs"/>
+        <value type="string" value="steam"/>
+      </property>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -59,12 +73,34 @@
       <property name="digital-format" type="string" value="%T"/>
       <property name="timezone" type="string" value="Asia/Ho_Chi_Minh"/>
     </property>
-    <property name="plugin-2" type="string" value="whiskermenu"/>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chrome.instance14765;chrome.instance2333;chrome.instance3022;chrome.instance4701;chromium.instance112832;chromium.instance1874;chromium.instance1904;chromium.instance23443;chromium.instance2810;chromium.instance39451;chromium.instance7340;chromium.instance8029;chromium.instance89382;chromium.instance94594;rhythmbox"/>
+      <property name="mpris-players" type="string" value="chrome.instance14765;chrome.instance2333;chrome.instance3022;chrome.instance4701;chromium.instance10375;chromium.instance10691;chromium.instance112832;chromium.instance11346;chromium.instance11348;chromium.instance11429;chromium.instance12183;chromium.instance12213;chromium.instance12894;chromium.instance1374;chromium.instance14260;chromium.instance1492;chromium.instance1537;chromium.instance15855;chromium.instance15877;chromium.instance16099;chromium.instance16183;chromium.instance16657;chromium.instance17691;chromium.instance1820;chromium.instance1839;chromium.instance18537;chromium.instance1874;chromium.instance1904;chromium.instance19238;chromium.instance20149;chromium.instance21043;chromium.instance2188;chromium.instance22013;chromium.instance22069;chromium.instance23443;chromium.instance24549;chromium.instance26174;chromium.instance2638;chromium.instance2696;chromium.instance27815;chromium.instance27937;chromium.instance2810;chromium.instance2928;chromium.instance3157;chromium.instance3245;chromium.instance3513;chromium.instance3724;chromium.instance3751;chromium.instance39451;chromium.instance4587;chromium.instance4706;chromium.instance4960;chromium.instance50842;chromium.instance54063;chromium.instance5500;chromium.instance5562;chromium.instance5574;chromium.instance5808;chromium.instance6062;chromium.instance64917;chromium.instance7302;chromium.instance7340;chromium.instance7465;chromium.instance7820;chromium.instance8029;chromium.instance8345;chromium.instance8604;chromium.instance89382;chromium.instance9018;chromium.instance9217;chromium.instance94594;firefox.instance10010;firefox.instance11116;firefox.instance11421;firefox.instance1234;firefox.instance1285;firefox.instance1308;firefox.instance1315;firefox.instance1329;firefox.instance1334;firefox.instance1337;firefox.instance1343;firefox.instance1345;firefox.instance1350;firefox.instance1351;firefox.instance1352;firefox.instance1354;firefox.instance1355;firefox.instance1359;firefox.instance1360;firefox.instance1361;firefox.instance1362;firefox.instance1364;firefox.instance1366;firefox.instance1368;firefox.instance1369;firefox.instance1372;firefox.instance1373;firefox.instance1374;firefox.instance1379;firefox.instance1380;firefox.instance1381;firefox.instance1382;firefox.instance1383;firefox.instance1386;firefox.instance1387;firefox.instance1390;firefox.instance1396;firefox.instance1397;firefox.instance1398;firefox.instance1402;firefox.instance1404;firefox.instance1409;firefox.instance1416;firefox.instance1418;firefox.instance1428;firefox.instance1435;firefox.instance1436;firefox.instance1441;firefox.instance1445;firefox.instance1474;firefox.instance1481;firefox.instance14951;firefox.instance1516;firefox.instance1545;firefox.instance1567;firefox.instance1574;firefox.instance1601;firefox.instance1604;firefox.instance1607;firefox.instance1643;firefox.instance1646;firefox.instance1647;firefox.instance1656;firefox.instance1701;firefox.instance1702;firefox.instance1735;firefox.instance1750;firefox.instance1776;firefox.instance1805;firefox.instance1857;firefox.instance1890;firefox.instance1924;firefox.instance21502;firefox.instance2161;firefox.instance2320;firefox.instance23324;firefox.instance2353;firefox.instance2378;firefox.instance24152;firefox.instance2495;firefox.instance2550;firefox.instance2583;firefox.instance2634;firefox.instance2686;firefox.instance2800;firefox.instance2948;firefox.instance3189;firefox.instance3470;firefox.instance3520;firefox.instance3862;firefox.instance4198;firefox.instance4216;firefox.instance4821;firefox.instance5606;firefox.instance5697;firefox.instance6984;firefox.instance7033;firefox.instance7385;firefox.instance7697;rhythmbox"/>
     </property>
-    <property name="plugin-8" type="string" value="appmenu"/>
     <property name="plugin-4" type="string" value="power-manager-plugin"/>
+    <property name="plugin-1" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16120425503.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="notification-plugin"/>
+    <property name="plugin-8" type="string" value="appmenu"/>
   </property>
 </channel>

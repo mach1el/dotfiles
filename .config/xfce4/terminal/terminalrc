@@ -31,5 +31,5 @@ ColorPalette=#000000;#cc0000;#4e9a06;#c4a000;#3465a4;#75507b;#06989a;#d3d7cf;#55
 ScrollingOnOutput=FALSE
 ScrollingUnlimited=TRUE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.900000
+BackgroundDarkness=0.830000
 

@@ -1,33 +1,40 @@
 site_name: Sublime Markdown Popups Documentation
 site_url: https://facelessuser.github.io/sublime-markdown-popups
 repo_url: https://github.com/facelessuser/sublime-markdown-popups
-edit_uri: tree/master/docs/src/markdown
+edit_uri: ""
 site_description: Popup tooltips for Sublime generated with Markdown.
 copyright: |
-  Copyright &copy; 2015 - 2020 <a href="https://github.com/facelessuser"  target="_blank" rel="noopener">Isaac Muse</a>
+  Copyright &copy; 2015 - 2021 <a href="https://github.com/facelessuser"  target="_blank" rel="noopener">Isaac Muse</a>
 
 docs_dir: docs/src/markdown
 theme:
   name: material
-  palette:
-    primary: drac-purple
-    accent: drac-purple
+  custom_dir: docs/theme
   icon:
     logo: material/book-open-page-variant
+  palette:
+    scheme: dracula
+    primary: deep purple
+    accent: deep purple
   font:
     text: Roboto
     code: Roboto Mono
+  features:
+    - navigation.tabs
 
 nav:
-  - About Markdown Popups: index.md
-  - Installation: installation.md
-  - User Settings: settings.md
-  - API: api.md
-  - CSS Styling: styling.md
-  - F.A.Q: faq.md
-  - Contributing &amp; Support: contributing.md
-  - Changelog: changelog.md
-  - License: license.md
+  - Home:
+    - Markdown Popups: index.md
+    - Installation: installation.md
+    - User Settings: settings.md
+    - API: api.md
+    - CSS Styling: styling.md
+  - F.A.Q:
+    - Frequently Asked Questions: faq.md
+  - About:
+    - Contributing &amp; Support: about/contributing.md
+    - Changelog: about/changelog.md
+    - License: about/license.md
 
 markdown_extensions:
   - markdown.extensions.toc:
@@ -57,10 +64,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
   - pymdownx.highlight:
       extend_pygments_lang:
-        - name: php-inline
-          lang: php
-          options:
-            startinline: true
         - name: pycon3
           lang: pycon
           options:
@@ -80,8 +83,8 @@ markdown_extensions:
   - pymdownx.caret:
   - pymdownx.smartsymbols:
   - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_png
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.escapeall:
       hardbreak: true
       nbsp: true
@@ -95,13 +98,14 @@ markdown_extensions:
       separator: "\uff0b"
   - pymdownx.details:
   - pymdownx.tabbed:
+  - pymdownx.saneheaders:
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/facelessuser
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/rZ2n3Dy
+      link: https://discord.gg/TWs8Tgr
 
 plugins:
   - search

@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Mojave-dark-solid-alt"/>
-    <property name="IconThemeName" type="string" value="la-capitaine"/>
+    <property name="ThemeName" type="string" value="WhiteSur-light-solid-blue"/>
+    <property name="IconThemeName" type="string" value="WhiteSur"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -32,9 +32,11 @@
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="capitaine-cursors"/>
+    <property name="CursorThemeName" type="string" value="WhiteSur-cursors"/>
     <property name="CursorThemeSize" type="int" value="20"/>
     <property name="DecorationLayout" type="string" value="close,minimize,maximize:menu"/>
+    <property name="DialogsUseHeader" type="empty"/>
+    <property name="TitlebarMiddleClick" type="empty"/>
     <property name="ShellShowsMenubar" type="bool" value="true"/>
     <property name="ShellShowsAppmenu" type="bool" value="true"/>
   </property>

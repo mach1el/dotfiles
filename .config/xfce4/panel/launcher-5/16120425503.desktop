@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=panther_launcher
+Comment=panther_launcher
+Exec=panther_launcher
+Icon=/home/michael/.arch-apple.png
+Path=/usr/bin
+Terminal=false
+StartupNotify=false
