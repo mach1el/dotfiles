@@ -16,8 +16,8 @@
         <property name="Y" type="int" value="0"/>
       </property>
       <property name="Scale" type="empty">
-        <property name="X" type="double" value="1.100000"/>
-        <property name="Y" type="double" value="1.100000"/>
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
       </property>
     </property>
     <property name="HDMI-1" type="string" value="AUS 27&quot;">
@@ -52,8 +52,8 @@
         <property name="Y" type="int" value="0"/>
       </property>
       <property name="Scale" type="empty">
-        <property name="X" type="double" value="1.100000"/>
-        <property name="Y" type="double" value="1.100000"/>
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
       </property>
     </property>
     <property name="HDMI-1" type="string" value="AUS 27&quot;">

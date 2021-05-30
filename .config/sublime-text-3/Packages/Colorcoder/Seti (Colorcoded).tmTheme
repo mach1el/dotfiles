@@ -6494,6 +6494,17 @@
 				<string>#2D2D2DFF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FFD700FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFD700FF</string>
+				<key>foreground</key>
+				<string>#4A4A4AFF</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

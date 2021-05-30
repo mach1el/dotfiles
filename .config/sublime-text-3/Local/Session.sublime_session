@@ -217,6 +217,18 @@
 				"selected_items":
 				[
 					[
+						"ser",
+						"server"
+					],
+					[
+						"serv",
+						"server"
+					],
+					[
+						"st",
+						"str5"
+					],
+					[
 						"VN",
 						"VNCH"
 					],
@@ -237,10 +249,28 @@
 			"buffers":
 			[
 				{
-					"contents": "####### Global Parameters #########\n\nlog_level=2\nlog_stderror=no\nlog_facility=LOG_LOCAL0\nchildren=4\nauto_aliases=no\ndisable_503_translation=yes\n\nlisten=udp:10.10.99.222:5060\nlisten=udp:10.30.51.18:5060\nlisten=ws:10.10.99.222:8888\nlisten=hep_udp:10.10.99.222:9191\n\n####### Modules Section ########\n\n#set module path\nmpath=\"/usr/lib/x86_64-linux-gnu/opensips/modules/\"\n\n#### SIGNALING module\nloadmodule \"signaling.so\"\n\n#### StateLess module\nloadmodule \"sl.so\"\n\n#### Transaction Module\nloadmodule \"tm.so\"\nmodparam(\"tm\", \"fr_timeout\", 30)\nmodparam(\"tm\", \"fr_inv_timeout\", 60)\nmodparam(\"tm\", \"restart_fr_on_each_reply\", 0)\nmodparam(\"tm\", \"onreply_avp_mode\", 1)\nmodparam(\"tm\", \"pass_provisional_replies\", 1)\n\n#### Record Route Module\nloadmodule \"rr.so\"\nmodparam(\"rr\", \"append_fromtag\", 0)\n\n#### MAX ForWarD module\nloadmodule \"maxfwd.so\"\n\n#### SIP MSG OPerationS module\nloadmodule \"sipmsgops.so\"\n\n#### FIFO Management Interface\nloadmodule \"mi_fifo.so\"\nmodparam(\"mi_fifo\", \"fifo_name\", \"/tmp/opensips_fifo\")\nmodparam(\"mi_fifo\", \"fifo_mode\", 0666)\n\n#### URI module\nloadmodule \"uri.so\"\nmodparam(\"uri\", \"use_uri_table\", 0)\n\n#### USeR LOCation module\nloadmodule \"usrloc.so\"\nmodparam(\"usrloc\", \"nat_bflag\", \"NAT\")\nmodparam(\"usrloc\", \"working_mode_preset\", \"single-instance-no-db\")\n\n#### REGISTRAR module\nloadmodule \"registrar.so\"\nmodparam(\"registrar\", \"tcp_persistent_flag\", \"TCP_PERSISTENT\")\n\n#### HTTPD module\nloadmodule \"httpd.so\"\nmodparam(\"httpd\", \"port\", 8080)\nloadmodule \"mi_json.so\"\nmodparam(\"mi_json\", \"mi_json_root\", \"json\")\nloadmodule \"mi_http.so\"\nmodparam(\"mi_http\", \"mi_http_method\", 1)\n\n#### core module\nloadmodule \"auth.so\"\nloadmodule \"db_mysql.so\"\nloadmodule \"db_postgres.so\"\nloadmodule \"json.so\"\nloadmodule \"proto_udp.so\"\nloadmodule \"proto_ws.so\"\nloadmodule \"proto_hep.so\"\n\n#### Nathelper protocol\nloadmodule \"nathelper.so\"\nmodparam(\"registrar|nathelper\", \"received_avp\", \"$avp(rcv)\")\n\n#### Rest Client\nloadmodule \"rest_client.so\"\nmodparam(\"rest_client\", \"curl_timeout\", 10)\nmodparam(\"rest_client\", \"connection_timeout\", 5)\nmodparam(\"rest_client\", \"max_async_transfers\", 300)\nmodparam(\"rest_client\", \"ssl_verifypeer\", 0)\nmodparam(\"rest_client\", \"ssl_verifyhost\", 0)\n\n#### Dialog module\nloadmodule \"dialog.so\"\nmodparam(\"dialog\", \"db_url\",\"postgres://opensips:opensipsrw@10.10.99.222/opensips\")\nmodparam(\"dialog\", \"table_name\", \"dialog\")\nmodparam(\"dialog\", \"enable_stats\", 1)\nmodparam(\"dialog\", \"profiles_with_value\",\"caller\")\nmodparam(\"dialog\", \"dlg_match_mode\", 2)\nmodparam(\"dialog\", \"default_timeout\", 21600)\nmodparam(\"dialog\", \"db_mode\", 1)\n\n#### ACCounting module\nloadmodule \"acc.so\"\nmodparam(\"acc\", \"early_media\", 0)\nmodparam(\"acc\", \"report_cancels\", 1)\nmodparam(\"acc\", \"detect_direction\", 0)\nmodparam(\"acc\", \"log_level\", 2)\nmodparam(\"acc\", \"db_url\",\"postgres://opensips:opensipsrw@10.10.99.222/opensips\")\nmodparam(\"acc\", \"db_table_acc\", \"acc\")\nmodparam(\"acc\", \"db_table_missed_calls\", \"acc\")\nmodparam(\"acc\", \"extra_fields\", \"db: src_ip; dst_ip; exten; caller\")\n\n#### Load Balancer\nloadmodule \"load_balancer.so\"\nmodparam(\"load_balancer\", \"db_url\", \"postgres://opensips:opensipsrw@10.10.99.222/opensips\")\nmodparam(\"load_balancer\", \"db_table\", \"load_balancer\")\nmodparam(\"load_balancer\", \"probing_reply_codes\", \"501, 503, 403, 404\")\nmodparam(\"load_balancer\", \"probing_verbose\", 1)\n\n#### Proto HEP\n#modparam(\"proto_hep\", \"hep_id\", \"[homer] 10.10.90.133:9060;transport=udp\")\n\n#### Sip Trace\n#loadmodule \"siptrace.so\"\n#modparam(\"siptrace\", \"trace_on\", 1)\n#modparam(\"siptrace\", \"trace_id\",\"[tid]uri=postgres://opensips:opensipsrw@10.10.99.222/opensips;table=sip_trace;\")\n#modparam(\"siptrace\", \"trace_id\", \"[traceid]uri=hep:homer\")\n\n#### RTP PROXY\nloadmodule \"rtpproxy.so\"\nmodparam(\"rtpproxy\", \"rtpproxy_sock\", \"udp:10.10.99.222:7890\")\nmodparam(\"rtpproxy\", \"rtpproxy_sock\", \"udp:10.30.51.18:7890\")\nmodparam(\"rtpproxy\", \"rtpproxy_autobridge\", 1)\n\nloadmodule \"mi_datagram.so\"\nmodparam(\"mi_datagram\", \"socket_name\", \"/tmp/ser.sock\")\nmodparam(\"mi_datagram\", \"unix_socket_mode\", 0600)\n\n#### USERBLACKLIST\nloadmodule \"userblacklist.so\"\nmodparam(\"userblacklist\",\"db_url\", \"postgres://opensips:opensipsrw@10.10.99.222/opensips\")\nmodparam(\"userblacklist\", \"db_table\", \"userblacklist\")\n\n####### Routing Logic ########\n\n# main request routing logic\nroute{\n  #sip_trace( \"traceid\", \"t\", \"xlog|sip|rest\");\n  if (!mf_process_maxfwd_header(\"10\")) {\n    xlog(\"L_WARN\", \"-------------------- $ci|end|to many hops\");\n    send_reply(\"483\",\"Too Many Hops\");\n    exit;\n  }\n\n  if (lookup(\"location\",\"m\")) {\n    xlog(\"L_WARN\",\"-------------------- [INCOMINGCALL][$rU @ $si:$sp ] Forward call call to <$ru> via <$du>\\n\");\n    if (!t_relay()) {\n      send_reply(\"503\",\"Internal Error\");\n    };\n    exit;\n  }\n\n  if (has_totag()) {\n    if (loose_route()) {\n      if (is_method(\"BYE\")) {\n        xlog(\"-------------------- CALL ENDED,$ru,$ci,$fn,$fu\\n\");\n      } else if (is_method(\"INVITE\")) {\n        record_route();\n      }\n      route(relay);\n    } else {\n\n      if ( is_method(\"ACK\") ) {\n        if ( t_check_trans() ) {\n          t_relay();\n          exit;\n        } else {\n          exit;\n        }\n      }\n      sl_send_reply(\"404\",\"Not here\");\n    }\n    exit;\n  }\n\n\n  # CANCEL processing\n  if (is_method(\"CANCEL\")) {\n    xlog(\"L_WARN\",\"-------------------- CANCEL CALL,$ru,$ci,$fn,$fu\\n\");\n    if (t_check_trans()) {\n      t_relay();\n    }\n    exit;\n  }\n\n  t_check_trans();\n\n  if ( !(is_method(\"REGISTER\")  ) ) {\n    if (is_myself(\"$fd\")) {\n\n    } else {\n      if ( $si == \"10.30.20.30\" ) || ( $si == \"10.30.70.30\" ) {\n        $fs = \"udp:10.10.99.222:5060\";\n        xlog(\"-------------------- Request from FE\\n\");\n      }\n    }\n  }\n\n  if (loose_route()) {\n    xlog(\"L_ERR\",\"-------------------- Attempt to route with preloaded Route's [$fu/$tu/$ru/$ci]\\n\");\n\n    if (!is_method(\"ACK\")) {\n      xlog(\"L_WARN\", \"-------------------- $ru|end|initial request contained a preloaded route set\\n\");\n      send_reply(\"403\",\"Preload Route denied\");\n      exit;\n    }\n  }\n\n  # record routing\n  if (!is_method(\"REGISTER|MESSAGE\"))\n    record_route();\n\n  # account only INVITEs\n  if (is_method(\"INVITE\")) {\n    $acc_extra(src_ip) = $si;\n    $acc_extra(caller) = $fU;\n    create_dialog(\"Pp\");\n    do_accounting(\"db|db\", \"cdr|missed\");\n    xlog(\"-------------------- CALL,$ru,$ci,$fn,$fu\\n\");\n    route(ob);\n  }\n\n  if (!is_myself(\"$rd\")) {\n    append_hf(\"P-hint: outbound\\r\\n\");\n    route(relay);\n  }\n\n  # requests for my domain\n  if (is_method(\"PUBLISH|SUBSCRIBE\")) {\n    send_reply(\"503\", \"Service Unavailable\");\n    exit;\n  }\n\n  if (is_method(\"REGISTER\")) {\n    if (!save(\"location\"))\n      sl_reply_error();\n    exit;\n  }\n\n  if ($rU==NULL) && ($si == \"10.10.94.123\") {\n        t_reply(\"200\",\"OK\");\n        exit;\n  }\n  else {\n    send_reply(\"484\",\"Address Incomplete\");\n    exit;\n  }\n\n  # do lookup with method filtering\n  if (!lookup(\"location\",\"m\")) {\n    t_reply(\"404\", \"Not Found\");\n    exit;\n  }\n\n  if (t_check_status(\"480\")) {\n    xlog(\"-------------------- Call over limits\\n\");\n    t_relay();\n  }\n\n  exit;\n}\n\nroute[ob] {\n  if ( $rU=~\"([2-3][0-9][0-9](03)[2-9]|[2-3][0-9][0-9](09)[678]|[2-3][0-9][0-9](086)).{7}\" )  {\n    $avp(lb_res) = \"vt\";\n  } else if ( $rU=~\"([2-3][0-9][0-9](09)[03]|[23][0-9][0-9](089)|[23][0-9][0-9](07)[06-9]).{7}\" )  {\n    $avp(lb_res) = \"mb\";\n  }\n  else {\n    send_reply(\"403\",\"NOT ALLOWED\");\n    exit;\n  }\n  \n  $acc_extra(exten) = $rU;\n  $rU = $(rU{s.substr,3,0});\n\n  if (!check_blacklist(\"userblacklist\")) {\n        xlog(\"-------------------- NOTICE: $rU is blacklisted\\n\");\n        sl_send_reply(\"504\", \"Blacklisted\");\n        exit;\n  }\n\n  if ( !lb_start(\"1\",\"$avp(lb_res)\") ) {\n      xlog(\"-------------------- REPORT: LB failed with code $T_reply_code .Service is full\\n\");\n      send_reply(\"503\",\"Service full\");\n      exit;\n  }\n\n  xlog(\"-------------------- Selected destination is: <$dd> for <$ru>,<$ci>\\n\");\n  $acc_extra(dst_ip) = $dd;\n  t_on_failure(\"GW_FAILOVER\");\n  route(relay);\n}\n\nroute[relay] {\n  if (is_method(\"INVITE\")) {\n    t_on_branch(\"handle_nat\");\n    t_on_reply(\"handle_nat\");\n    t_on_failure(\"missed_call\");\n\n  } else if (is_method(\"BYE|CANCEL\")) {\n    rtpproxy_unforce();\n  }\n\n  if (!t_relay()) {\n    send_reply(\"500\",\"Internal Error\");\n  };\n  exit;\n}\n\n\nbranch_route[per_branch_ops] {\n  xlog(\"-------------------- new branch at $ru\\n\");\n}\n\nbranch_route[handle_nat] {\n\n  if (!is_method(\"INVITE\") || !has_body(\"application/sdp\"))\n    return;\n\n  if (isflagset(SRC_WS) && isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"ICE=force-relay DTLS=passive\";\n  else if (isflagset(SRC_WS) && !isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"RTP/AVP replace-session-connection replace-origin ICE=remove\";\n  else if (!isflagset(SRC_WS) && isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"UDP/TLS/RTP/SAVPF ICE=force\";\n  else if (!isflagset(SRC_WS) && !isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"RTP/AVP replace-session-connection replace-origin ICE=remove\";\n\n  rtpproxy_offer();\n}\n\nonreply_route[handle_nat] {\n\n  fix_nated_contact();\n  if (!has_body(\"application/sdp\"))\n    return;\n\n  if (isflagset(SRC_WS) && isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"ICE=force-relay DTLS=passive\";\n  else if (isflagset(SRC_WS) && !isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"UDP/TLS/RTP/SAVPF ICE=force\";\n  else if (!isflagset(SRC_WS) && isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"RTP/AVP replace-session-connection replace-origin ICE=remove\";\n  else if (!isflagset(SRC_WS) && !isbflagset(DST_WS))\n    $var(rtpengine_flags) = \"RTP/AVP replace-session-connection replace-origin ICE=remove\";\n\n  rtpproxy_answer();\n}\n\n\nfailure_route[missed_call] {\n    if (t_was_cancelled()) {\n    exit;\n  }\n}\n\nfailure_route[GW_FAILOVER] {\n  if (t_was_cancelled()) {\n    exit;\n  }\n}\n",
+					"file": "/home/michael/Downloads/gsm.csv",
 					"settings":
 					{
-						"buffer_size": 9687,
+						"buffer_size": 228,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/michael/Downloads/dauso",
+					"settings":
+					{
+						"buffer_size": 439,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/michael/Downloads/test",
+					"settings":
+					{
+						"buffer_size": 84,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
@@ -306,10 +336,29 @@
 			"expanded_folders":
 			[
 				"/home/michael",
+				"/home/michael/Downloads",
 				"/home/michael/Videos"
 			],
 			"file_history":
 			[
+				"/home/michael/Downloads/export_data.py",
+				"/home/michael/Downloads/dauso",
+				"/home/michael/Downloads/test",
+				"/home/michael/Downloads/create_acc_table.sql",
+				"/home/michael/Downloads/gsm.csv",
+				"/tmp/mozilla_michael0/load_balancer.csv",
+				"/tmp/mozilla_michael0/load_balancer-1.csv",
+				"/tmp/mozilla_michael0/data-1621902772518.csv",
+				"/home/michael/Downloads/gsmmb.csv",
+				"/tmp/mozilla_michael0/MOBI.csv",
+				"/home/michael/Downloads/load_balancer.csv",
+				"/home/michael/Downloads/load_balancer(1).csv",
+				"/home/michael/Downloads/load_balancer(2).csv",
+				"/home/michael/Downloads/test.py",
+				"/home/michael/ansible-role-postgresql/tasks/configure.yml",
+				"/home/michael/ansible-role-postgresql/defaults/main.yml",
+				"/home/michael/ansible-role-postgresql/templates/postgresql.conf.j2",
+				"/home/michael/Downloads/test.txt",
 				"/home/michael/vala-panel-appmenu-xfce-git/PKGBUILD",
 				"/home/michael/export.py",
 				"/tmp/sip_server_log",
@@ -349,6 +398,89 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"|",
+					"acc",
+					"203.205.63.142",
+					"94.34",
+					"203.205.63.142",
+					"555",
+					"\"",
+					"350",
+					"\"",
+					"94.34",
+					"55",
+					"_51",
+					"5",
+					"55_51",
+					"5_51",
+					"55_51",
+					"555_",
+					"5_1",
+					"340",
+					"340_",
+					"10.30.51.18",
+					"222",
+					"210",
+					"333",
+					"340",
+					"pre_all",
+					"PRE_ALL",
+					"pre_all",
+					"pre_340",
+					"PRE_340",
+					"pre_340",
+					"PRE_ALL",
+					"pre_all",
+					"TOPCALL",
+					"calls",
+					"10.10.95.23",
+					"10.10.95.16",
+					"10.10.94.13",
+					"10.10.97.21",
+					"10.10.97.21 ",
+					"10.10.91.11",
+					"10.10.98.18",
+					"10.10.97.25",
+					"10.10.94.22",
+					"10.10.95.23",
+					"10.10.95.16",
+					"10.10.94.13",
+					"10.10.97.21 ",
+					"10.10.91.11",
+					"10.10.91.17",
+					"10.10.97.21",
+					"10.10.91.11",
+					"1,",
+					"34",
+					"130",
+					"_2",
+					"_1",
+					"_9",
+					"333",
+					"15",
+					"14",
+					"13",
+					"12",
+					"11",
+					"_10",
+					"340",
+					"mb=",
+					"[23][01235-9][0-9]",
+					"[2-3][01235-9][0-9]",
+					"[01235-9]",
+					"[2-3][01235-9][0-9]",
+					"xxx",
+					"_5",
+					"555",
+					"_6",
+					"_5",
+					"_4",
+					"_3",
+					"_2",
+					"2",
+					"555",
+					"vt=",
+					"[2-3][0-9][0-9]",
 					"rtpengine",
 					"rtpengine_answer",
 					"10.30.51.18",
@@ -393,17 +525,7 @@
 					"gsm-handle",
 					"hangup-handle",
 					"129",
-					"130",
-					"99",
-					"VBP",
-					"panther-launcher-git",
-					"rtpengine_docker",
-					"arch-pentest-docker",
-					"terminal",
-					"\t\t\t\t\t\t\t",
-					"\t\t\t\t\t\t",
-					"\t\t\t\t\t",
-					"\t\t\t\t"
+					"130"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -427,23 +549,24 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
+							"file": "/home/michael/Downloads/gsm.csv",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 9687,
+								"buffer_size": 228,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3954,
-										3954
+										228,
+										0
 									]
 								],
 								"settings":
@@ -453,27 +576,12 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												3970,
-												3971
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/double_quote.png",
-												"region.greenish"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												3953,
-												3954
-											]
 										},
 										"unmatched":
 										{
@@ -481,21 +589,109 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
 										"bh_default_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content"
+									],
+									"colorcode": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/michael/Downloads/dauso",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 439,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										439,
+										439
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
 										"bh_curly",
 										"bh_curly_center",
 										"bh_curly_open",
@@ -511,16 +707,31 @@
 										"bh_angle_open",
 										"bh_angle_close",
 										"bh_angle_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
 										"bh_regex",
 										"bh_regex_center",
 										"bh_regex_open",
 										"bh_regex_close",
 										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
 										"bh_single_quote",
 										"bh_single_quote_center",
 										"bh_single_quote_open",
@@ -531,17 +742,120 @@
 										"bh_unmatched_open",
 										"bh_unmatched_close",
 										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"colorcode": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 504.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/michael/Downloads/test",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 84,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										17,
+										17
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
 										"bh_round",
 										"bh_round_center",
 										"bh_round_open",
 										"bh_round_close",
-										"bh_round_content"
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content"
 									],
 									"colorcode": true,
-									"syntax": "Packages/Perl/Perl.sublime-syntax"
+									"syntax": "Packages/Python/Python.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 768.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
